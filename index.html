@@ -1,412 +1,551 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SQUAD | Sports Management App</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and HTML5 template with 14 ready home page demos.">
+    <!-- keywords -->
+    <meta name="keywords"
+        content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, faq">
+    <!-- Page Title -->
+    <title>SQUAD Sports Management</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-
-    <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
-
-    <!-- Plugins CSS (All Plugins Files) -->
-    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/odometer-theme-default.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-pupup.css">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="manifest" href="images/icon/site.webmanifest">
+    <!-- Bundle -->
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="vendor/css/LineIcons.min.css" rel="stylesheet">
+    <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
+    <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
+    <!-- Style Sheet -->
+    <link href="corporate-agency/css/navigation.css" rel="stylesheet">
+    <link href="corporate-agency/css/line-awesome.min.css" rel="stylesheet">
+    <link href="corporate-agency/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <header class="header-wrapper sticky-header">
-        <div class="">
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+    <!-- Loader -->
+    <div class="loader-bg">
+        <div class="loader"></div>
+    </div>
+    <!-- Loader ends -->
+
+    <!-- START HEADER -->
+    <header>
+        <!--Navigation-->
+        <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="flex-center justify-content-between">
-                            <!-- Header Logo Start -->
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/logos/default-1.png" alt="" style="height: 100px; padding-bottom: 10px;">
-                                </a>
-                            </div>
-                            <!-- Header Logo End -->
-
-                            <div class="flex-center header-right">
-                                <!-- Header Menu Start -->
-                                <div class="d-none d-lg-flex header-right_menu">
-                                    <nav class="main-menu">
-                                        <ul>
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="http://admin.squadstm.co.uk/auth/login">Login</a></li>
-                                            <li><a href="http://admin.squadstm.co.uk/auth/registration">Register</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <!-- Header Menu End -->
-
-                                <!-- Header Actions Start -->
-                                <div class="header-right_actions flex-center">
-                                    <div class="header-social">
-                                        <ul class="social-icon flex-center">
-                                            <li>
-                                                <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="hamburger d-block d-lg-none">
-                                        <!-- Mobile Menu Hambarger Action Button Start -->
-                                        <a class="header-action-btn header-action-btn-menu hamburger_button d-flex" href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </a>
-                                        <!-- Mobile Menu Hambarger Action Button End -->
-                                    </div>
-
-                                </div>
-                                <!-- Header Social Actions End -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="offcanvas offcanvas-end" id="offcanvas-header">
-
-        <div class="offcanvas-header">
-            <!-- Header Logo Start -->
-            <div class="logo">
-                <a href="/">
-                    <img src="assets/logos/default.png" alt="">
+                <a href="" title="Logo" class="logo scroll">
+                    <!--Logo Default-->
+                    <img src="images/logo.png" alt="logo" class="ml-lg-3 m-0" height="80px" width="160px">
                 </a>
+
+                <!--Nav Links-->
+                <div class="collapse navbar-collapse" id="megaone">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link scroll line" href="#slider-section">Home</a>
+                        <a class="nav-link scroll line" href="#about">About Us</a>
+                        <a class="nav-link scroll line" href="#contact">Contact Us</a>
+                        <a href="http://admin.squadstm.co.uk/auth/registration" target="_blank"
+                            class="btn btn-large btn-rounded btn-pink nav-button">Register</a>
+                        <a href="http://admin.squadstm.co.uk/auth" target="_blank"
+                            class="btn btn-large btn-rounded btn-pink nav-button">Login</a>
+                    </div>
+                </div>
             </div>
-            <!-- Header Logo End -->
-            <button type="button" class="btn-close text-reset mobilemenu-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="offcanvas-body">
-            <!-- mobile menu navigation start -->
-            <nav>
-                <ul class="mobile-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="http://149.102.130.146:8080/auth/login">Login</a></li>
-                    <li><a href="http://149.102.130.146:8080/auth/registration">Register</a></li>
+
+            <!--Side Menu Button-->
+            <div class="navigation-toggle">
+                <ul class="slider-social toggle-btn my-0">
+                    <li>
+                        <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
                 </ul>
-            </nav>
-            <!-- mobile menu navigation end -->
-        </div>
-
-    </div>
-
-    <!-- Slider Section End -->
-    <div class="slider-section">
-        <div class="swiper sliderone animation-style-01">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide ">
-                    <!-- Single Slider Start -->
-                    <div class="slingle-slider overlay slider-bg-image" data-bg-color="#E9EDF4" data-bg-image="assets/images/slider/01_home_01.png">
-                        <span class="shape shape-one">
-                    <img src="assets/images/slider/shape-1.png" alt="Shape">
-                </span>
-                        <span class="shape shape-two layer" data-speed="1">
-                    <img src="assets/images/slider/shape-2.png" alt="Shape">
-                </span>
-                        <span class="shape shape-three">
-                    <img src="assets/images/slider/shape-3.png" alt="Shape">
-                </span>
-                        <span class="shape shape-four">
-                    <img src="assets/images/slider/shape-4.png" alt="Shape">
-                </span>
-                        <span class="shape shape-five layer" data-speed="2">
-                    <img src="assets/images/slider/shape-5.png" alt="Shape">
-                </span>
-                        <span class="shape shape-six">
-                    <img src="assets/images/slider/shape-6.png" alt="Shape">
-                </span>
-                        <span class="shape shape-seven">
-                    <img src="assets/images/slider/shape-7.png" alt="Shape">
-                </span>
-                        <span class="shape shape-eight">
-                    <img src="assets/images/slider/shape-8.png" alt="Shape">
-                </span>
-                        <span class="shape shape-nine">
-                    <img src="assets/images/slider/shape-9.png" alt="Shape">
-                </span>
-                        <span class="shape shape-ten">
-                    <img src="assets/images/slider/shape-10.png" alt="Shape">
-                </span>
-                        <div class="slider-content-wrapper">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-5 align-self-center">
-                                        <!-- Slider Content Start -->
-                                        <div class="slider-content">
-                                            <span class="subtitle">SQUADS Sports Team Management</span>
-                                            <h2 class="title">Assemble Your Squad</h2>
-                                            <p class="text">Organize sessions and games, whilst tracking player attendance and payments without whole squad needing an app.</p>
-                                            <a href="service-details.html" class="btn btn-style-one"> <span>Read More</span> </a>
-                                        </div>
-                                        <!-- Slider Content End -->
-                                    </div>
-                                    <div class="col-xl-6 col-lg-7">
-                                        <!-- Slider Image Start -->
-                                        <div class="slider-image">
-                                            <div class="slider-image-one js-tilt">
-                                                <img src="assets/images/slider/img-one.png" alt="Slider Image">
-                                            </div>
-                                            <div class="slider-image-two js-tilt">
-                                                <img src="assets/images/slider/img-two.png" alt="Slider Image">
-                                            </div>
-                                            <span class="shape shape-circle">
-                                        <img src="assets/images/slider/circle.png" alt="Shape">
-                                    </span>
-                                        </div>
-                                        <!-- Slider Image End -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Slider End -->
-                </div>
-
             </div>
-        </div>
-    </div>
-    <!-- Slider Section Start -->
+        </nav>
 
-    <!-- About Section End -->
-    <div class="about section-padding">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="main-image">
-                        <img class="about-img js-tilt" src="assets/images/about/about.png" alt="about">
-                        <div class="shape-one wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-                            <img src="assets/images/about/shape-one.png" alt="Shape">
-                        </div>
-                        <div class="shape-two wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-                            <img src="assets/images/about/shape-two.png" alt="Shape">
-                        </div>
-                        <div class="about-icon icon-one wow flipInY" data-wow-duration="2s" data-wow-delay=".6s">
-                            <img src="assets/images/icons/icon-1.png" alt="Icon">
-                        </div>
-                        <div class="about-icon icon-two wow flipInY" data-wow-duration="2s" data-wow-delay=".6s">
-                            <img src="assets/images/icons/icon-2.png" alt="Icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                            <h2 class="title">Manage Your Team On Your Terms</h2>
-                            <p class="text">The Application lets you integrate your preferred form of communication whether its Whatsapp, Facebook or Text Message.</p>
-                            <p class="text-two">Send Attendance and payment requests to players and let Squads track it for you.</p>
-                            <a href="about.html" class="btn btn-style-one"> <span>Read More</span> </a>
-                        </div>
-                    </div>
+        <!--Side Nav-->
+        <div class="side-menu hidden">
+
+            <div class="mega-title" id="mega-title">
+                <h2 class="inner-mega-title">Squad STM</h2>
+            </div>
+
+            <span id="btn_sideNavClose">
+                <i class="las la-times btn-close"></i>
+            </span>
+            <div class="inner-wrapper">
+                <nav class="side-nav w-100">
+                    <a href="" title="Logo" class="logo scroll navbar-brand">
+                        <img src="images/logo.png" alt="logo" class="ml-lg-3 m-0" height="80px" width="160px">
+
+                    </a>
+                    <ul class="navbar-nav text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#slider-section">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="get-started-btn">
+                            <a href="http://admin.squadstm.co.uk/auth/registration" target="_blank"
+                                class="btn btn-medium btn-rounded btn-pink d-lg-none">Register</a>
+                        </li>
+                        <li class="get-started-btn">
+                            <a href="http://admin.squadstm.co.uk/auth" target="_blank"
+                                class="btn btn-medium btn-rounded btn-pink d-lg-none">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="side-footer w-100">
+                    <ul class="social-icons-simple">
+                        <li>
+                            <a class="social-icon wow fadeInLeft" href="javascript:void(0)" data-wow-delay="300ms">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-icon wow fadeInUp" href="javascript:void(0)" data-wow-delay="500ms">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="social-icon wow fadeInRight" href="javascript:void(0)" data-wow-delay="300ms">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>&copy; 2022 Squad STM</p>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About Section Start -->
+        <a id="close_side_menu" href="javascript:void(0);"></a>
+        <!-- End side menu -->
 
-    <!-- Service Section Start -->
-    <div class="service-section section-padding-bottom">
-        <div class="service-shape wow fadeInRight" data-wow-duration="2s" data-wow-delay=".6s">
-            <img src="assets/images/service/shape-one.png" alt="">
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN SLIDER -->
+    <div id="slider-section" class="slider-section">
+        <div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark"
+            data-alias="classic4export" data-source="gallery">
+            <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+            <div id="vertical-bullets" class="rev_slider fullwidthabanner white vertical-tpb" data-version="5.4.1">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-index="rs-01" data-transition="fade" data-slotamount="default"
+                        data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000"
+                        data-fsmasterspeed="1500" data-param1="01">
+                        <!-- MAIN IMAGE -->
+
+                        <img src="images/Banner.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <div class="bg-overlay bg-black opacity-4"></div>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-80','-80','-65','-65']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Squad Sports Team Management</p>
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-30','-30','-10','-10']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1200"
+                            data-splitin="none" data-splitout="none">
+                            <h1 class="text-white main-font font-weight-600 text-capitalize font-40">Assemble
+                                Your Squad
+                            </h1>
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['95','95','100','100']" data-width="none" data-height="none" data-type="text"
+                            data-textAlign="['right','center','center','center']" data-responsive_offset="on"
+                            data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Oragnise sessions and games ,whilst<br /> tracking
+                                player attendance and payments.<br /> Wihtout the whole squad needing an app.</p>
+                        </div>
+                    </li>
+
+                    <!-- SLIDE 2 -->
+                    <li data-index="rs-02" data-transition="fade" data-slotamount="default"
+                        data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000"
+                        data-fsmasterspeed="1500" data-param1="02">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/Banner2.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <div class="bg-overlay bg-black opacity-5"></div>
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-80','-80','-65','-65']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Squad Sports Team Management</p>
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-30','-30','-10','-10']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1200"
+                            data-splitin="none" data-splitout="none">
+                            <h1 class="text-white main-font font-weight-600 text-capitalize font-40">Assemble
+                                Your Squad
+                            </h1>
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['95','95','100','100']" data-width="none" data-height="none" data-type="text"
+                            data-textAlign="['right','center','center','center']" data-responsive_offset="on"
+                            data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Oragnise sessions and games ,whilst<br /> tracking
+                                player attendance and
+                                payments.<br /> Wihtout the whole squad needing an app.</p>
+                        </div>
+                    </li>
+
+                    <!-- SLIDE 3 -->
+                    <li data-index="rs-03" data-transition="fade" data-slotamount="default"
+                        data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000"
+                        data-fsmasterspeed="1500" data-param1="03">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/Banner3.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <div class="bg-overlay bg-black opacity-4"></div>
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-80','-80','-65','-65']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Squad Sports Team Management</p>
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['-30','-30','-10','-10']" data-width="none" data-height="none"
+                            data-type="text" data-textAlign="['center','center','center','center']"
+                            data-responsive_offset="on" data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1200"
+                            data-splitin="none" data-splitout="none">
+                            <h1 class="text-white main-font font-weight-600 text-capitalize font-40">Assemble
+                                Your Squad
+                            </h1>
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['right','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['95','95','100','100']" data-width="none" data-height="none" data-type="text"
+                            data-textAlign="['right','center','center','center']" data-responsive_offset="on"
+                            data-beforeafter="before" data-transform_idle="o:1;"
+                            data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                            data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                            data-splitin="none" data-splitout="none">
+                            <p class="text-white alt-font font-18">Oragnise sessions and games ,whilst<br /> tracking
+                                player attendance and
+                                payments.<br /> Wihtout the whole squad needing an app.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <ul class="social-icons social-icons-simple revicon white d-none d-md-block d-lg-block">
+            <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-twitter"></i> </a>
+            </li>
+            <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-linkedin-in"></i> </a>
+            </li>
+            <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-instagram"></i> </a>
+            </li>
+        </ul>
+    </div>
+    <!--scroll down-->
+    <a href="#about" class="scroll-down link scroll main-font font-15 animate">Scroll Down <i
+            class="fas fa-long-arrow-alt-down"></i></a>
+    <!-- END MAIN SLIDER -->
+
+    <!-- START ABOUT US -->
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-12 wow fadeIn" data-wow-duration=".7s" data-wow-delay=".1s">
-                    <!-- Section Title Start -->
-                    <div class="section-title-center section-head text-center">
-                        <h2 class="title">What We Do</h2>
-                    </div>
-                    <!-- Section Title End  -->
+                <div class="col-12 col-lg-6 wow fadeInLeft" data-wow-delay="300ms">
+                    <p class="text-pink font-weight-200 font-20">Manage Your Team on Your Terms</p>
+                    <h1 class="main-font font-weight-600 text-white">SQUAD
+                    </h1>
+                    <h5 class="text-white">
+                        Sports Team Management
+                    </h5>
                 </div>
-            </div>
-            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 mb-n30">
-                <div class="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <!-- Single Service Start -->
-                    <div class="single-service">
-                        <div class="single-service-top">
-                            <div class="icon">
-                                <img src="assets/images/icons/icon-3.png" alt="icon">
-                            </div>
-                            <h4 class="title">
-                                <a href="service-details.html">Manage Players</a>
-                            </h4>
-                        </div>
-                        <p class="single-service-text">Create players key information by sending an information request form that the player fills out. Players then can be assigned to teams.</p>
-                        <a class="readmore-btn" href="service-details.html"><i class="fas fa-angle-right"></i> Read More</a>
-                    </div>
-                    <!-- Single Service End -->
-                </div>
-                <div class="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                    <!-- Single Service Start -->
-                    <div class="single-service">
-                        <div class="single-service-top">
-                            <div class="icon">
-                                <img src="assets/images/icons/icon-4.png" alt="icon">
-                            </div>
-                            <h4 class="title">
-                                <a href="service-details.html">Manage Teams</a>
-                            </h4>
-                        </div>
-                        <p class="single-service-text">You can seemlessly manage multiple teams. Create a team or multiple teams to manage. Assign players to a team and manage the groups in one single place.</p>
-                        <a class="readmore-btn" href="service-details.html"><i class="fas fa-angle-right"></i> Read More</a>
-                    </div>
-                    <!-- Single Service End -->
-                </div>
-                <div class="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <!-- Single Service Start -->
-                    <div class="single-service">
-                        <div class="single-service-top">
-                            <div class="icon">
-                                <img src="assets/images/icons/icon-5.png" alt="icon">
-                            </div>
-                            <h4 class="title">
-                                <a href="service-details.html">Sessions</a>
-                            </h4>
-                        </div>
-                        <p class="single-service-text">Create, manage and track sessions from training & games. Players are sent a link to register attendance through your preferred channel.</p>
-                        <a class="readmore-btn" href="service-details.html"><i class="fas fa-angle-right"></i> Read More</a>
-                    </div>
-                    <!-- Single Service End -->
-                </div>
-                <div class="col mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
-                    <!-- Single Service Start -->
-                    <div class="single-service">
-                        <div class="single-service-top">
-                            <div class="icon">
-                                <img src="assets/images/icons/icon-6.png" alt="icon">
-                            </div>
-                            <h4 class="title">
-                                <a href="service-details.html">Finances</a>
-                            </h4>
-                        </div>
-                        <p class="single-service-text">Track clubs finances and player payments. Reminders are automatically sent for players who have not paid.</p>
-                        <a class="readmore-btn" href="service-details.html"><i class="fas fa-angle-right"></i> Read More</a>
-                    </div>
-                    <!-- Single Service End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service Section End -->
 
-    <footer class="footer-wrapper">
-        <div class="shape-one">
-            <img src="assets/images/footer/shape-one.png" alt="Footer-Shape">
+                <div class="col-12 col-lg-6 m-ipad wow fadeInRight" data-wow-delay="300ms">
+                    <div class="ml-md-4 pl-md-2 font-weight-200 text-grey font-18">
+                        <p>This Application let's you integrate<br />your preffered means of communication.<br />Wether
+                            it's Whatsapp, Facebook or Text messages.</p>
+                        <h5>
+                            Send attendance and payment requests to <br />players and let squads track it for you.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <!-- About Boxes -->
+            <div class="row about-margin">
+                <!-- First Box -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="about-box center-block bg-green wow zoomIn" data-wow-delay="400ms">
+                        <div class="about-main-icon pb-4">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                        <h5>Players</h5>
+                        <p class="text-white">Create players key information by sending an information request form that
+                            the player fills out. Players then can be
+                            assigned to teams.</p>
+                    </div>
+                </div>
+                <!-- Second Box -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="about-box center-block bg-blue wow zoomIn" data-wow-delay="500ms">
+                        <div class="about-main-icon pb-4">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <h5>Teams</h5>
+                        <p class="text-white">You can seemlessly manage multiple teams. Create a team or multiple teams
+                            to manage. Assign players to a team and manage
+                            the groups in one single place.</p>
+                    </div>
+                </div>
+                <!-- Third Box -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="about-box center-block bg-green wow zoomIn" data-wow-delay="600ms">
+                        <div class="about-main-icon pb-4">
+                            <i class="fa fa-flag" aria-hidden="true"></i>
+                        </div>
+                        <h5>Sessions</h5>
+                        <p class="text-white">Create, manage and track sessions from training & games. Players are sent
+                            a link to register attendance through your
+                            preferred channel.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="shape-two">
-            <img src="assets/images/footer/shape-two.png" alt="Footer-Shape">
-        </div>
+    </section>
+    <!-- END ABOUT US -->
+
+    <!-- START CONTACT-FORM -->
+    <section id="contact" class="contact-sec">
         <div class="container">
-            <div class="row mb-n30">
+            <!--Heading-->
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <p class="text-pink font-weight-200 font-20">How to reach us</p>
+                    <h1 class="main-font font-weight-600 text-white">Let’s Get in Touch</h1>
+                </div>
+            </div>
 
-                <!-- Footer Widget Start -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <div class="footer-widget negative-margin">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="assets/logos/default-1.png" alt="" style="height: 120px;">
-                            </a>
+            <!-- Contact-us -->
+            <div class="row">
+                <div class="col-12 col-lg-6 contact-details text-md-left">
+                    <div class="font-15 alt-font text-white text-center text-lg-left">
+                        West is not just about graphic design; it's more than that. We offer integral communication
+                        services, and we're responsible for our process and results. We thank each client and their
+                        projects.
+                    </div>
+                    <div class="row mt-5 wow fadeIn" data-wow-delay="200ms">
+                        <!-- Address-Box -->
+                        <div class="col-12 col-md-6 text-center text-lg-left">
+                            <h4 class="main-font text-pink font-16 font-weight-600">Our Address</h4>
+                            <p class="alt-font font-14 text-white mt-3">123 Stree New York City , United States Of
+                                America. </p>
                         </div>
-                        <ul class="footer-widget-list-icon">
-                            <li><i class="fas fa-map-marker-alt"></i> <span> 20 Bordeshi, Amin Bazar <br> Savar, Dhaka 1348</span></li>
-                            <li><i class="fas fa-envelope"></i> <span>hello@sports.com</span> </li>
-                            <li><i class="fas fa-phone"></i><span>+123 456 7890</span> </li>
-                        </ul>
-                        <ul class="social-icon d-flex flex-start">
-                            <li>
-                                <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
+                        <!-- Phone-Box -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 wow fadeIn text-center text-lg-left"
+                            data-wow-delay="400ms">
+                            <h4 class="main-font text-pink font-16 font-weight-600">Our Phone</h4>
+                            <p class="alt-font font-14 text-white mt-3">Office Telephone : 001 01085379709 Mobile : 001
+                                63165370895 </p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <!-- Email-Box -->
+                        <div class="col-12 col-md-6 wow fadeIn text-center text-lg-left" data-wow-delay="600ms">
+                            <h4 class="main-font text-pink font-16 font-weight-600">Our Email</h4>
+                            <p class="alt-font font-14 text-white mt-3">Main Email : admin@website.com Inquiries :
+                                email@website.com </p>
+                        </div>
+                        <!-- Support-Box -->
+                        <div class="col-12 col-md-6 pt-5 pt-md-0 wow fadeIn text-center text-lg-left"
+                            data-wow-delay="800ms">
+                            <h4 class="main-font text-pink font-16 font-weight-600">Our Support</h4>
+                            <p class="alt-font font-14 text-white mt-3">Main Support : info@website.com Sales :
+                                support@website</p>
+                        </div>
                     </div>
                 </div>
-                <!-- Footer Widget End -->
 
-                <!-- Footer Widget Start -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-30 d-flex justify-content-lg-center justify-content-sm-end wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <div class="footer-widget">
-                        <h5 class="footer-widget-title">Service</h5>
-                        <ul class="footer-widget-list">
-                            <li><a href="about.html">Manage Players</a></li>
-                            <li><a href="about.html">Manage Teams</a></li>
-                            <li><a href="about.html">Sessions</a></li>
-                            <li><a href="about.html">Finances</a></li>
+                <div class="col-12 col-lg-6 contact-form-box">
+                    <form class="contact-form" id="contact-form-data">
+                        <div class="row">
+                            <!-- Submission Popup -->
+                            <div class="col-12">
+                                <div class="col-sm-12 px-0" id="result"></div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="First Name:" required=""
+                                        id="first_name" name="firstName">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Last Name:" required=""
+                                        id="last_name" name="lastName">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="email" placeholder="Email:" required="" id="email"
+                                        name="userEmail">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="tel" placeholder="Phone:" id="phone"
+                                        name="userPhone">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" id="message"
+                                        name="userMessage"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="button"
+                                    class="btn btn-medium green-long-btn rounded-pill w-100 btn-pink mt-4 contact_btn"
+                                    id="submit_btn">SUBMIT REQUEST</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT-FORM -->
+
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--Social-->
+                <div class="col-12 text-center">
+                    <div class="footer-social">
+                        <ul class="list-unstyled social-icons social-icons-simple">
+                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i
+                                        class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
+                            <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i
+                                        class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
+                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i
+                                        class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
+                            <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i
+                                        class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li>
+                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i
+                                        class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
+                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i
+                                        class="fab fa-pinterest-p" aria-hidden="true"></i> </a> </li>
                         </ul>
                     </div>
+                    <!--Text-->
+                    <p class="company-about fadeIn text-white">© 2022 SQUAD STM</p>
                 </div>
-                <!-- Footer Widget End -->
-
             </div>
         </div>
     </footer>
-    <!-- Scroll Top Start -->
-    <a href="#" class="scroll-top show" id="scroll-top">
-        <i class="arrow-top fas fa-angle-double-up"></i>
-        <i class="arrow-bottom fas fa-angle-double-up"></i>
-    </a>
-    <!-- Scroll Top End -->
+    <!-- END FOOTER -->
 
-    <!-- JS Vendor, Plugins & Activation Script Files -->
+    <!--START SCROLL TOP-->
+    <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
+    <!--END SCROLL TOP-->
 
-    <!-- Vendors JS -->
-    <script src="./assets/js/vendor/modernizr-3.11.7.min.js"></script>
-    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="./assets/js/vendor/bootstrap.min.js"></script>
-
-    <!-- Plugins JS -->
-    <script src="./assets/js/plugins/magnificpopup.min.js"></script>
-    <script src="./assets/js/plugins/swiper-bundle.min.js"></script>
-    <script src="./assets/js/plugins/tilt.jquery.min.js"></script>
-    <script src="./assets/js/plugins/odometer.min.js"></script>
-    <script src="./assets/js/plugins/isotope.min.js"></script>
-    <script src="./assets/js/plugins/imagesloaded.min.js"></script>
-    <script src="./assets/js/plugins/waypoint.min.js"></script>
-    <script src="./assets/js/plugins/wow.min.js"></script>
-    <script src="./assets/js/plugins/fancybox.min.js"></script>
-    <script src="./assets/js/plugins/jquery.ajaxchimp.min.js"></script>
-
-    <!-- Activation JS -->
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/pages/home.js"></script>
-
+    <!-- JavaScript -->
+    <script src="vendor/js/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="vendor/js/jquery.appear.js"></script>
+    <script src="vendor/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="vendor/js/parallaxie.min.js"></script>
+    <script src="vendor/js/wow.min.js"></script>
+    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="vendor/js/morphext.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
+    <script src="corporate-agency/js/map.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="corporate-agency/js/isotope.pkgd.js"></script>
+    <script src="corporate-agency/js/modernizr.custom.97074.js"></script>
+    <script src="corporate-agency/js/jquery.hoverdir.js"></script>
+    <!-- custom script -->
+    <script src="vendor/js/contact_us.js"></script>
+    <script src="corporate-agency/js/script.js"></script>
 </body>
 
 </html>
